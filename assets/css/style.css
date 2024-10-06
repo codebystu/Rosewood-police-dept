@@ -18,6 +18,8 @@ body {
     width: 200px;
     background-color: blue;
     color: white;
+    margin-top: 20px;
+    line-height: 30px;
 }
 
 .submit-button {
@@ -25,4 +27,7 @@ body {
     color: white;
     border-radius: 50px;
     margin-top: 20px;
+    padding: 5px;
+    line-height: 30px;
+    width: 100px;
 }
