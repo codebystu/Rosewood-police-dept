@@ -13,12 +13,11 @@ body {
     background-color: black;
 }
 
-.form-field {
+#login-box {
     text-align: center;
     width: 200px;
-    background-color: blue;
-    color: white;
-    margin-top: 20px;
+    background-color: white;
+    color: black;
     line-height: 30px;
 }
 
