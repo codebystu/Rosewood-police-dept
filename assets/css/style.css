@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(50, 40, 40);
     color: white;
 }
 
@@ -7,7 +7,7 @@ body {
 #login-screen {
     text-align: center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: block;
     z-index: 1;
     background-color: black;

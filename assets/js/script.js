@@ -1,10 +1,16 @@
 var validlog = "Art2822"
 
 function checkPassword() {
-    let logattempt = document.getElementById("login-box").innerText;
+    let logattempt = document.getElementById("login-box").value;
         console.log(logattempt)
-        console.log(validlog)  
-    
+        console.log(validlog) 
+        if (logattempt === validlog) {
+            document.getElementById("login-screen");
+        closeLogin()
+    } else {
+        document.getElementById("login-box").value ="";
+        document.getElementById("login-box").focus();
+    }
 }
 
 let logbut = document.getElementById("pass-sub");
